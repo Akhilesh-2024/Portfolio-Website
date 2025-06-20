@@ -1,5 +1,5 @@
 import { myProjects } from "./Constant/index";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ProjectCard from "./Sub-Sections/ProjectCard";
 import { useMotionValue, useSpring, motion } from "motion/react";
 
