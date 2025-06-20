@@ -14,6 +14,17 @@ const Projects = () => {
   };
   const [preview, setPreview] = useState(null);
 
+  const [isLargeScreen, setIsLargeScreen] = useState(false);
+
+  useEffect(() => {
+  const mediaQuery = window.matchMedia("(min-width: 768px)");
+  const updateMatch = () => setIsLargeScreen(mediaQuery.matches);
+  updateMatch();
+
+  mediaQuery.addEventListener("change", updateMatch);
+  return () => mediaQuery.removeEventListener("change", updateMatch);
+}, []);
+
   return (
     <section onMouseMove={handelMouse} className="relative c-space section-spacing">
       <h2 className="text-heading">My Selected Projects</h2>
@@ -21,7 +32,7 @@ const Projects = () => {
       {myProjects.map((project) => (
         <ProjectCard key={project.id} {...project} setPreview={setPreview} />
       ))}
-      {preview && <motion.img
+      {preview && isLargeScreen && <motion.img
         src={preview}
         className="fixed top-0 left-0 z-50 object-cover h-56 rounded-lg shadow-lg pointer-events-none w-80"
         style={{ x: springX, y: springY }}
