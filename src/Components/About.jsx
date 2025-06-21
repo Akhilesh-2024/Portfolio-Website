@@ -96,7 +96,9 @@ const About = () => {
               I'm based in Mars, and open to remote work worldwide.
             </p>
             <figure className="absolute left-[30%] top-[10%]">
-              <Globe />
+              <div style={{ willChange: 'transform' }}>
+              {/* <Globe /> */}
+              </div>
             </figure>
           </div>
         </div>

@@ -4,8 +4,6 @@ import ParallexBackground from "./Sub-Sections/ParallexBackground";
 import { Astronaut } from "./Sub-Sections/Astronaut";
 import { useMediaQuery } from "react-responsive";
 import { motion } from "motion/react";
-import { animate } from "motion/mini"
-import { spring } from "motion"
 
 const Hero = () => {
   const ismobile = useMediaQuery({maxWidth : 853});
