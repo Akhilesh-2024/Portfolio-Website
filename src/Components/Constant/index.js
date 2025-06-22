@@ -237,7 +237,7 @@ export const mySocials = [
   {
     name: "Github",
     href: "https://github.com/Akhilesh-2024",
-    icon: "/assets/socials/GitHub.svg",
+    icon: "/assets/socials/github.svg",
   },
 ];
 
