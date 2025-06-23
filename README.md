@@ -9,6 +9,10 @@ Welcome to the **Portfolio Website** project!
 <img alt="Tailwind CSS" src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white" />
 <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black" />
 
+## Preview
+
+![Demo](Videos/GIF.gif)
+
 ## ✨ Features
 - Responsive Design
 - Modern UI/UX
