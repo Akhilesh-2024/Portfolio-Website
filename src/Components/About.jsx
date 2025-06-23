@@ -89,17 +89,17 @@ const About = () => {
             />
           </div>
         </div>
-<div className="grid-black-color grid-3">
-  <div className="z-10 w-[50%]">
-    <p className="headtext">Time Zone</p>
-    <p className="subtext">
-      I'm based in Mars, and open to remote work worldwide.
-    </p>
-    <figure className="absolute left-[40%] top-[20%] w-[400px] h-[400px]">
-      <Globe />
-    </figure>
-  </div>
-</div>
+        <div className="grid-black-color grid-3">
+          <div className="z-10 w-[50%]">
+            <p className="headtext">Time Zone</p>
+            <p className="subtext">
+              I'm based in Mars, and open to remote work worldwide.
+            </p>
+            <figure className="absolute left-[40%] top-[20%] w-[400px] h-[400px]">
+              <img src="assets/Globe.png" alt="" />
+            </figure>
+          </div>
+        </div>
         <div className="grid-special-color grid-4">
           <div className="flex flex-col items-center justify-center gap-4 size-full">
             <p className="text-center headtext">
