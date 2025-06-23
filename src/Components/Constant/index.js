@@ -1,6 +1,91 @@
 export const myProjects = [
-  {
+    {
     id: 1,
+    title: "Transport Management System",
+    description:
+      "A full-stack Spring Boot project developed for Jagdish Transport to manage logistics, vehicle assignments, and user operations with a responsive web interface.",
+    subDescription: [
+      "Developed RESTful APIs using Spring Boot for managing vehicles, drivers, routes, and logistics tasks.",
+      "Integrated MySQL as the relational database for reliable and persistent data storage.",
+      "Designed responsive front-end using HTML5 and CSS, focusing on clean UI and smooth user experience.",
+      "Collaborated using Git for version control and teamwork, ensuring efficient feature integration.",
+    ],
+    href: "https://github.com/Akhilesh-2024/Jagdish-Transport",
+    logo: "",
+    image: "/assets/projects/Jagdishtranspoart.png",
+    tags: [
+      {
+        id: 1,
+        name: "Spring Boot",
+        path: "/assets/logos/Projects/Spring.svg",
+      },
+      {
+        id: 2,
+        name: "MySQL",
+        path: "/assets/logos/Projects/MySQL.svg",
+      },
+      {
+        id: 3,
+        name: "HTML5",
+        path: "/assets/logos/Projects/HTML5.svg",
+      },
+      {
+        id: 4,
+        name: "Git",
+        path: "/assets/logos/Projects/Git.svg",
+      },
+      {
+        id: 5,
+        name: "CSS",
+        path: "/assets/logos/Projects/CSS3.svg",
+      },
+    ],
+  },
+    {
+    id: 2,
+    title: "Portfolio Website",
+    description:
+      "A visually dynamic and interactive portfolio site to showcase my projects, skills, and contact information, built with modern frontend technologies.",
+    subDescription: [
+      "Developed using React for component-based architecture and seamless user experience.",
+      "Designed a modern, responsive UI with Tailwind CSS for clean and efficient styling.",
+      "Integrated Three.js for immersive 3D elements and animated visual effects.",
+      "Used Framer Motion to add smooth transitions and animations for engaging UI interactions.",
+      "Implemented EmailJS to enable users to send direct messages from the contact form without a backend.",
+    ],
+    href: "https://github.com/Akhilesh-2024/Portfolio-Website",
+    logo: "",
+    image: "/assets/projects/Portfolio-website.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/Projects/React.svg",
+      },
+      {
+        id: 2,
+        name: "Tailwind CSS",
+        path: "/assets/logos/Projects/Tailwind CSS.svg",
+      },
+      {
+        id: 3,
+        name: "Three.js",
+        path: "/assets/logos/Projects/Three.js.svg",
+      },
+      {
+        id: 4,
+        name: "Framer Motion",
+        path: "/assets/logos/Projects/Farmer.svg",
+      },
+      {
+        id: 5,
+        name: "EmailJS",
+        path: "/assets/logos/Projects/Emailjs.svg",
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "Vertex Admin Dashboard",
     description:
       "A comprehensive React-based admin dashboard with modern UI components and responsive design for managing business operations.",
@@ -12,69 +97,32 @@ export const myProjects = [
     ],
     href: "https://github.com/Akhilesh-2024/Vertex-Admin-Dashboard",
     logo: "",
-    image: "/assets/projects/vertex-dashboard.jpg",
+    image: "/assets/projects/Vertex.png",
     tags: [
       {
         id: 1,
         name: "React",
-        path: "/assets/logos/react.svg",
+        path: "/assets/logos/Projects/React.svg",
       },
       {
         id: 2,
         name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
+        path: "/assets/logos/Projects/JavaScript.svg",
       },
       {
         id: 3,
         name: "CSS3",
-        path: "/assets/logos/css3.svg",
+        path: "/assets/logos/Projects/CSS3.svg",
       },
       {
         id: 4,
         name: "HTML5",
-        path: "/assets/logos/html5.svg",
+        path: "/assets/logos/Projects/HTML5.svg",
       },
     ],
   },
   {
-    id: 2,
-    title: "AI Image Generator",
-    description:
-      "An intelligent image generation application using advanced AI algorithms to create unique images based on user prompts.",
-    subDescription: [
-      "Developed using vanilla JavaScript for lightweight performance and browser compatibility.",
-      "Integrated AI image generation APIs for high-quality image creation.",
-      "Implemented responsive CSS design for optimal user experience across devices.",
-      "Created intuitive user interface for seamless image generation and customization.",
-    ],
-    href: "https://github.com/Akhilesh-2024/AI-Image-Generator",
-    logo: "",
-    image: "/assets/projects/ai-generator.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
-      },
-      {
-        id: 2,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 3,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 4,
-        name: "AI/ML",
-        path: "/assets/logos/ai.svg",
-      },
-    ],
-  },
-  {
-    id: 3,
+    id: 4,
     title: "Java Application Form",
     description:
       "A desktop application built with Java Swing for form management and data processing with professional UI design.",
@@ -86,32 +134,69 @@ export const myProjects = [
     ],
     href: "https://github.com/Akhilesh-2024/Java-Application-Form",
     logo: "",
-    image: "/assets/projects/java-app.jpg",
+    image: "/assets/projects/Java.png",
     tags: [
       {
         id: 1,
         name: "Java",
-        path: "/assets/logos/java.svg",
+        path: "/assets/logos/Projects/Java.svg",
       },
       {
         id: 2,
-        name: "Swing",
-        path: "/assets/logos/swing.svg",
+        name: "Desktop App",
+        path: "/assets/logos/Projects/Windows 11.svg",
       },
       {
         id: 3,
-        name: "Desktop",
-        path: "/assets/logos/desktop.svg",
+        name: "Inno Setup",
+        path: "/assets/logos/Projects/inno.svg",
       },
       {
         id: 4,
-        name: "Database",
-        path: "/assets/logos/database.svg",
+        name: "SQLite",
+        path: "/assets/logos/Projects/SQLite.svg",
       },
     ],
   },
   {
-    id: 4,
+    id: 5,
+    title: "AI Image Generator",
+    description:
+      "An intelligent image generation application using advanced AI algorithms to create unique images based on user prompts.",
+    subDescription: [
+      "Developed using vanilla JavaScript for lightweight performance and browser compatibility.",
+      "Integrated AI image generation APIs for high-quality image creation.",
+      "Implemented responsive CSS design for optimal user experience across devices.",
+      "Created intuitive user interface for seamless image generation and customization.",
+    ],
+    href: "https://github.com/Akhilesh-2024/AI-Image-Generator",
+    logo: "",
+    image: "/assets/projects/AI-Image.png",
+    tags: [
+      {
+        id: 1,
+        name: "JavaScript",
+        path: "/assets/logos/Projects/JavaScript.svg",
+      },
+      {
+        id: 2,
+        name: "CSS3",
+        path: "/assets/logos/Projects/CSS3.svg",
+      },
+      {
+        id: 3,
+        name: "HTML5",
+        path: "/assets/logos/Projects/HTML5.svg",
+      },
+      {
+        id: 4,
+        name: "AI/ML",
+        path: "/assets/logos/Projects/ai.svg",
+      },
+    ],
+  },
+  {
+    id: 6,
     title: "Sankalp Landmark Website",
     description:
       "A professional real estate website for Sankalp Landmark Nashik, showcasing properties with modern web design.",
@@ -123,101 +208,27 @@ export const myProjects = [
     ],
     href: "https://github.com/Akhilesh-2024/Sankalp-Landmark",
     logo: "",
-    image: "/assets/projects/sankalp-landmark.jpg",
+    image: "/assets/projects/Sankapl1.png",
     tags: [
       {
         id: 1,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
+        name: "GSAP",
+        path: "/assets/logos/Projects/gsap.svg",
       },
       {
         id: 2,
         name: "CSS3",
-        path: "/assets/logos/css3.svg",
+        path: "/assets/logos/Projects/CSS3.svg",
       },
       {
         id: 3,
         name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
+        path: "/assets/logos/Projects/JavaScript.svg",
       },
       {
         id: 4,
-        name: "Responsive",
-        path: "/assets/logos/responsive.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "Hari Om Construction Website",
-    description:
-      "A fully responsive construction company website showcasing services, projects, and company information with modern design.",
-    subDescription: [
-      "Developed responsive website using HTML5, CSS3, and JavaScript for optimal user experience.",
-      "Implemented modern web design principles for professional business presentation.",
-      "Created project portfolio section to showcase completed construction projects.",
-      "Optimized for mobile devices and search engines to maximize reach and engagement.",
-    ],
-    href: "https://github.com/Akhilesh-2024/Hari-Om-Group",
-    logo: "",
-    image: "/assets/projects/hari-om.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 2,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 3,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
-      },
-      {
-        id: 4,
-        name: "Responsive",
-        path: "/assets/logos/responsive.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Transport Management System",
-    description:
-      "Collaborative project for Jagdish Transport - a comprehensive transport management system for logistics operations.",
-    subDescription: [
-      "Collaborated on transport management system for streamlined logistics operations.",
-      "Implemented CSS styling and responsive design for professional user interface.",
-      "Contributed to team-based development using Git for version control and collaboration.",
-      "Focused on user experience design and frontend development best practices.",
-    ],
-    href: "https://github.com/Atharva-2510/Jagdish-Transport",
-    logo: "",
-    image: "/assets/projects/transport-system.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Collaboration",
-        path: "/assets/logos/team.svg",
+        name: "Bootstrap",
+        path: "/assets/logos/Projects/Bootstrap.svg",
       },
     ],
   },
@@ -226,7 +237,7 @@ export const myProjects = [
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    href: "https://wa.me/919011795583",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
@@ -243,39 +254,42 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Full Stack Java Developer Intern",
+    job: "A2Z IT HUB",
+    date: "2025 - Present",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Working on enterprise-level web applications using Java, Spring Boot, and MySQL for back-end development.",
+      "Collaborating with senior developers in Agile teams to build and maintain scalable features.",
+      "Contributing to RESTful API development and integration with front-end interfaces.",
+      "Assisting in code reviews, testing, and debugging to ensure software quality and reliability.",
+      "Gaining hands-on experience with real-world software development workflows and deployment practices.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "MERN Stack Developer",
+    job: "Personal & Academic Projects",
+    date: "2023 - Present",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control.",
-      "Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Developed full-stack web applications using MongoDB, Express.js, React, and Node.js.",
+      "Built a personal portfolio website to showcase projects and skills, incorporating modern UI/UX design principles.",
+      "Integrated REST APIs and user authentication features using JWT and OAuth.",
+      "Utilized Git and GitHub for version control and collaboration on academic and personal projects.",
+      "Continuously learning and applying modern web technologies through online courses and hands-on practice.",
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "Computer Science Student",
+    job: "Savitribai Phule Pune University",
+    date: "2022 - Present",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Pursuing a Bachelor's degree in Computer Science with a focus on software development and web technologies.",
+      "Completed coursework in Data Structures, Algorithms, Database Systems, and Operating Systems.",
+      "Actively participating in coding competitions, hackathons, and open-source contributions.",
+      "Working on academic projects involving software engineering principles and modern tech stacks.",
     ],
   },
 ];
+
 
 export const reviews = [
   {

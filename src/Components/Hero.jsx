@@ -27,7 +27,7 @@ const Hero = () => {
 
         <motion.figure
           className="absolute inset-0"
-          style={{ height: "100vh", width: "100vw" }}
+          style={{ height: "100vh", width: ismobile ? "100vw" : "80vw" }}
           initial={{ opacity: 0, y: -500 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 2 }}
