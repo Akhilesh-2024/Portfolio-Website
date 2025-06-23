@@ -4,10 +4,10 @@ Welcome to the **Portfolio Website** project!
 
 ## 🛠️ Tech Stack
 
-<img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
-<img alt="Vite" src="https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
-<img alt="Tailwind CSS" src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
-<img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+<img alt="React" src="https://img.shields.io/badge/-React-45b8d8?logo=react&logoColor=white" />
+<img alt="Vite" src="https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white" />
+<img alt="Tailwind CSS" src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white" />
+<img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black" />
 
 ## ✨ Features
 - Responsive Design
