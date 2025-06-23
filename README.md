@@ -11,7 +11,7 @@ Welcome to the **Portfolio Website** project!
 
 ## Preview
 
-![Demo](Videos/GIF.gif)
+![Preview](public/Videos/GIF.gif)
 
 ## ✨ Features
 - Responsive Design
