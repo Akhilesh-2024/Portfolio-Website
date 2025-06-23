@@ -1,12 +1,76 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Portfolio Website** project!
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
+<img alt="Vite" src="https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
+<img alt="Tailwind CSS" src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+<img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
 
-## Expanding the ESLint configuration
+## ✨ Features
+- Responsive Design
+- Modern UI/UX
+- Animated Components
+- Project Showcase
+- Contact Form with Copy Email
+- Fast Performance with Vite
+- Intuitive Navigation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+
+<pre>
+src/
+├── Components/
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   ├── Experience.jsx
+│   ├── Footer.jsx
+│   ├── Hero.jsx
+│   ├── Navbar.jsx
+│   ├── Projects.jsx
+│   ├── Testimonials.jsx
+│   └── Sub-Sections/
+│       ├── Alert.jsx
+│       ├── Astronaut.jsx
+│       ├── Card.jsx
+│       ├── CopyEmail.jsx
+│       ├── FlipWords.jsx
+│       ├── Frameworks.jsx
+│       ├── Globe.jsx
+│       ├── HeroText.jsx
+│       ├── Marquee.jsx
+│       ├── OrbitCircle.jsx
+│       ├── ParallexBackground.jsx
+│       ├── Particals.jsx
+│       ├── ProjectCard.jsx
+│       ├── ProjectDetail.jsx
+│       └── Timeline.jsx
+├── index.css
+├── App.jsx
+├── main.jsx
+└── Constant/
+    └── index.js
+</pre>
+
+## 🚀 Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Start the development server:
+   ```
+   npm run dev
+   ```
+4. Open your browser and navigate to the local server address shown in your terminal
+
+## ⚙️ Development Perks
+- Hot Module Replacement (HMR)
+- ESLint Integration
+- Fast refresh
+
+## 📄 License
+This project is licensed under the MIT License.
